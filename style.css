@@ -1,0 +1,57 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  height: 100em;
+  background-image: url("back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.watch
+{
+  position: absolute;
+   top: 50%;
+   right: 50%;
+   left: 50%;
+   bottom: 50%;
+    
+}
+#time
+{
+  font-size: 4em;
+  color: white;
+}
+button
+{
+  display: flex;
+  background-color:rgba(224, 223, 223, 0);
+  border-color: rgba(255, 255, 255, 0.63);
+  font-size: 3em;
+  margin-right: 1em;
+  border-radius: 0.5em;
+  color: rgb(255, 255, 255);
+}
+#stop
+{
+  position: absolute;
+  top: 1.5em;
+  left: 3em;
+}
+#reset
+{
+  position: absolute;
+  left: 6em;
+  top: 1.5em;
+}
+.head
+{
+  text-align: center;
+  position: relative;
+  top: 6em;
+  font-size: 3em;
+  color: white;
+}
